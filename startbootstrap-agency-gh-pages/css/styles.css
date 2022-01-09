@@ -319,6 +319,28 @@ th {
   text-align: -webkit-match-parent;
 }
 
+/***** Section *****/
+
+/***** End Section *****/
+
+.a {
+  margin-right: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 thead,
 tbody,
 tfoot,
@@ -11420,6 +11442,7 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
+  text-align: left;
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11428,12 +11451,14 @@ header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
+  text-align: left;
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-subheading-2 {
   font-size: 1.2rem;
   line-height: 1.5rem;
+  text-align: left;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11499,6 +11524,11 @@ header.masthead .masthead-subheading-2 {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+/***** modified *****/
+
+
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
