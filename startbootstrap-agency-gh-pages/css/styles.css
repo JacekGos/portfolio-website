@@ -321,18 +321,8 @@ th {
 
 /***** Section 
 
-.social-link {
-  transition: cubic-bezier(.15,.49,.51,.96) 0.4s;
-  text-decoration: none;
-} 
-.social-link:hover {
-  transform: translateY(-15px)
-}
-
-*****/
 
 /***** End Section *****/
-
 
 .social-link {
   font-size: 2em;
