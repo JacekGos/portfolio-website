@@ -333,6 +333,17 @@ th {
   transform: translate(0, -5px);
 }
 
+.link-item {
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  transition: cubic-bezier(.15,.49,.51,.96) 0.4s;
+}
+       
+.link-item:hover {
+  transform: translateY(-15px);
+} 
+
 .a {
   margin-right: 20px;
 }
