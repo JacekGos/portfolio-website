@@ -345,6 +345,14 @@ th {
   transform: translateY(-15px);
 } 
 
+.skills-image {
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+
 .a {
   margin-right: 20px;
 }
