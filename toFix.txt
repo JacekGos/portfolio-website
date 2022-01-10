@@ -1,2 +1,3 @@
 main - pozycja napisów, przestrzenie pomiêdzy napisem, ikonami, a przyciskiem Projects
 projects - napis projects troche wy¿ej
+project report system - w widoku mobilnym filmik znajduje siê za blisko prawej krawêdzi
