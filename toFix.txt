@@ -1,0 +1,2 @@
+main - pozycja napisów, przestrzenie pomiêdzy napisem, ikonami, a przyciskiem Projects
+projects - napis projects troche wy¿ej
