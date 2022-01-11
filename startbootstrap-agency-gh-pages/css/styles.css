@@ -7340,7 +7340,7 @@ textarea.form-control-lg {
 
 .my-3 {
   margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 4rem !important;
 }
 
 .my-4 {
@@ -11701,6 +11701,8 @@ header.masthead .masthead-subheading-2 {
 .timeline .timeline-body > p {
   margin-bottom: 0;
 }
+
+
 
 @media (min-width: 768px) {
   .timeline:before {
