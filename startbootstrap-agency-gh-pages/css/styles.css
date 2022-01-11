@@ -11531,7 +11531,7 @@ header.masthead .masthead-subheading-2 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #66a3ff;
   align-items: center;
   justify-content: center;
   opacity: 0;
