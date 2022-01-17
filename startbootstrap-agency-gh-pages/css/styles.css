@@ -324,6 +324,10 @@ th {
 
 /***** End Section *****/
 
+.video-position {
+  margin-left: -0.5rem!important;
+}
+
 .contact-description {
   color: white!important;
 }
