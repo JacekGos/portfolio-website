@@ -11597,7 +11597,13 @@ header.masthead .masthead-subheading-2 {
 
 /***** modified *****/
 
-
+.about-font {
+  color: black!important;
+  font-weight: 395!important;
+  font-size: 25px!important;
+  margin-inline: 2rem!important;
+  line-height: 2rem;
+}
 
 .portfolio-modal .modal-dialog {
   margin: 1rem;
