@@ -11610,21 +11610,37 @@ header.masthead .masthead-subheading-2 {
 
 .container-image .btn {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #cca000;
   color: white;
   font-size: 16px;
+  font-weight: 550;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 0,25rem;
   text-align: center;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, 
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+    "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+}
+
+.container-image .btn-pos {
+  top: 50%!important;
+  left: 50%!important;
 }
 
 .container-image .btn:hover {
+  background-color: #c2c2d6;
+  color: black;
+}
+
+.container-image .btn2:hover {
   background-color: #c2c2d6;
   color: black;
 }
