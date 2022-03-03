@@ -11618,7 +11618,7 @@ header.masthead .masthead-subheading-2 {
   color: white;
   font-size: 16px;
   font-weight: 550;
-  padding: 12px 24px;
+  padding: 20px 40px;
   border: none;
   cursor: pointer;
   border-radius: 0,25rem;
@@ -11631,7 +11631,7 @@ header.masthead .masthead-subheading-2 {
 }
 
 .container-image .btn-pos {
-  top: 50%!important;
+  top: 40%!important;
   left: 50%!important;
 }
 
@@ -11640,9 +11640,13 @@ header.masthead .masthead-subheading-2 {
   color: black;
 }
 
-.container-image .btn2:hover {
-  background-color: #c2c2d6;
-  color: black;
+@media (max-width: 1000px) {
+  .container-image .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+
 }
 
 .about-font {
