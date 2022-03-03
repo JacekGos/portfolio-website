@@ -11628,6 +11628,7 @@ header.masthead .masthead-subheading-2 {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
     "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
+  border: 2px solid;
 }
 
 .container-image .btn-pos {
@@ -11646,6 +11647,11 @@ header.masthead .masthead-subheading-2 {
     font-size: 12px;
   }
 
+@media (max-width: 250px) {
+  .container-image .btn {
+    padding: 7px 14px;
+    font-size: 8px;
+  }
 
 }
 
