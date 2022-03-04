@@ -11642,31 +11642,26 @@ header.masthead .masthead-subheading-2 {
   box-shadow: 0 0 0 0.25rem rgba(6, 185, 240, 0.5);
 }
 
-
-
 .container-image .btn-pos {
   top: 40%!important;
   left: 50%!important;
 }
 
 .container-image .btn:hover {
-  background-color: #ccddff;
+  background-color: #cdebff;
   color: black;
 }
 
-/* @media (max-width: 1000px) {
-  .container-image .btn {
-    padding: 10px 20px;
-    font-size: 12px;
-  }
+.btn-modal {
+  color: black!important;
+  border: 2px solid;
+}
 
-@media (max-width: 250px) {
-  .container-image .btn {
-    padding: 7px 14px;
-    font-size: 8px;
-  } 
-
-} */
+.btn-modal:hover {
+  color: rgb(15, 14, 14);
+  background-color: #cdebff;
+  border-color: black;
+}
 
 .about-font {
   color: black!important;
