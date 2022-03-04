@@ -3363,7 +3363,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(6, 185, 240, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-color: #ffffff;
   border-color: #fdfdfd;
 }
@@ -11600,7 +11600,6 @@ header.masthead .masthead-subheading-2 {
 .skills-img {
   width: 60px;
   height: 60px;
-  /* height: auto; */
   border-radius: 50%;
   box-shadow: 0 0 5px 0.2rem #B3DFF7;
 }
@@ -11643,11 +11642,11 @@ header.masthead .masthead-subheading-2 {
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
     "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
-  border: 2px solid;
+  border: 1px solid;
 }
 
 .container-image .btn:checked, .container-image .btn:focus, .container-image .btn:active {
-  box-shadow: 0 0 0 0.25rem rgba(6, 185, 240, 0.5);
+  box-shadow: 0 0 5px 0.2rem #B3DFF7;
 }
 
 .container-image .btn-pos {
@@ -11656,7 +11655,7 @@ header.masthead .masthead-subheading-2 {
 }
 
 .container-image .btn:hover {
-  background-color: #cdebff;
+  background-color: #B3DFF7;
   color: black;
 }
 
@@ -11778,7 +11777,7 @@ header.masthead .masthead-subheading-2 {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #66a3ff;
+  background-color: #B3DFF7;
   
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
