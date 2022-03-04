@@ -11597,6 +11597,13 @@ header.masthead .masthead-subheading-2 {
 
 /***** modified *****/
 
+.skills-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0.2rem #DDE6EB;
+}
+
 .container-image {
   position: relative;
   width: 100%;
